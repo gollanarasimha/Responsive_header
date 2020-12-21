@@ -44,7 +44,7 @@ section{
 }
 .button{
     border: none;
-    background: white;
+    background: transparent;
 }
 
 .container{
@@ -328,7 +328,7 @@ section{
 
     .nav-btn{
         position: fixed;
-        height: calc(100vh - 3rem);
+        height: calc(100vh - 6rem);
         top: 7rem;
         left: 0;
         width: 100%;
@@ -463,8 +463,8 @@ section{
         justify-content: flex-start;
         opacity: 0;
         transform: translateY(15px);
-        position: fixed;
-        bottom: 60px;
+        /* position: fixed;
+        bottom: 60px; */
        
     }
 }
